@@ -3,12 +3,12 @@ export default function Navbar() {
 
     return(
         <header>
-            <h1>Andrew Roddy</h1>
             <nav>
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#works">My Works</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#portfolio">work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li>resume</li>
                 </ul>
             </nav>
         </header>
