@@ -9,9 +9,9 @@ export default function Home() {
           <p>seeking the opportunity to build</p>
           <p>high quality, high value applications.</p>
           <br/>
-          <p>in: https://www.linkedin.com/in/andrew-roddy/</p>
-          <p>git: https://github.com/andrewroddy92</p>
-          <p>email: andrewroddy92@yahoo.com</p>
+          <p>in: <a href = ">https://www.linkedin.com/in/andrew-roddy/">https://www.linkedin.com/in/andrew-roddy/</a></p>
+          <p>git: <a href = "https://github.com/andrewroddy92">https://github.com/andrewroddy92</a></p>
+          <p>email: <a href = "mailto: andrewroddy92@yahoo.com">andrewroddy92@yahoo.com</a></p>
         </section>
       );
 }

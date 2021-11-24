@@ -1,6 +1,7 @@
 import React from "react";
 export default function Contact() {
     return(
-        <section id="contact"/>
+        //TODO: Contact form eventually?
+        <section id="contact"/> 
     );
 }
