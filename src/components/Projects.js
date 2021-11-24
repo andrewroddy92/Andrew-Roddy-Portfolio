@@ -1,2 +1,6 @@
 import React from "react";
-export default function Projects() {}
+export default function Projects() {
+    return(
+        <section id="projects"/>
+    );
+}
