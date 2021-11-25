@@ -14,7 +14,7 @@ export default function Navigation() {
       };
 
     return(
-            <Nav className="justify-content-end" style={styles.nav}>
+            <Nav className="justify-content-end" style={styles.nav} >
                 <Nav.Item>
                     <Nav.Link style={styles.navLink} href="#about">about</Nav.Link>
                 </Nav.Item>
