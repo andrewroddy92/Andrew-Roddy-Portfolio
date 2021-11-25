@@ -4,6 +4,8 @@ import screenshot from '../assets/book-search.PNG'
 
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faExternalLinkSquareAlt } from '@fortawesome/free-solid-svg-icons'
 
@@ -57,7 +59,7 @@ export default function Featured() {
             </Col>
             <Col style={styles.textCol}>
               <div id="featured-text">
-                <h2 style={styles.title}>Google Books Search</h2>
+                <h2 style={styles.title}>featured: Google Books Search</h2>
                 <div style={styles.description}>
                   <p>users can authenticate, search for books, and save books.</p>
                 </div>
@@ -70,7 +72,7 @@ export default function Featured() {
                   <li>GraphQL</li>
                   <li>Heroku</li>
                 </ul>
-                <a href="https://github.com/andrewroddy92/graphql-book-search">Github <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a><br/>
+                <a href="https://github.com/andrewroddy92/graphql-book-search">Github <FontAwesomeIcon icon={faGithub} /></a><br/>
                 <a href="https://book-search-aroddy.herokuapp.com/">Heroku <FontAwesomeIcon icon={faExternalLinkSquareAlt} /></a>
               </div>
             </Col>

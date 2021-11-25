@@ -6,9 +6,6 @@ import me from '../assets/me.jpg'
 
 export default function About() {
     const styles = {
-      row: {
-        paddingTop: '1.5rem'
-      },
       header: {
         color: '#E63946',
         fontSize: '1.5rem'
@@ -33,11 +30,11 @@ export default function About() {
     };
 
     return (
-        <Row id="about" style={styles.row}>
+        <Row id="about">
           <Col>
             <h1 style={styles.header}>about me</h1>
             <section style={styles.text}>
-              <p>Hello -- my name is Andrew and I <br/> develop, test, and deploy web applications.</p>
+              <p>Hello -- I develop, test, and deploy web applications.</p>
               <p><br/>After graduating with a B.S. in Technical Communication, I spent a few years professionally communicating product requirements between business & IT.</p>
               <p><br/>In a change of career, I've retooled my skillset to bring those requirements to life.</p>
             </section>

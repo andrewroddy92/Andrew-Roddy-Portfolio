@@ -3,6 +3,11 @@ import React from "react";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
 export default function Home() {
     const styles = {
       row: {
@@ -33,9 +38,9 @@ export default function Home() {
                 seeking the opportunity to build<br/>
                 high quality, high value wep apps.</p>
                 <br/>
-                <p>in: <a href = ">https://www.linkedin.com/in/andrew-roddy/">https://www.linkedin.com/in/andrew-roddy/</a></p>
-                <p>git: <a href = "https://github.com/andrewroddy92">https://github.com/andrewroddy92</a></p>
-                <p>email: <a href = "mailto: andrewroddy92@yahoo.com">andrewroddy92@yahoo.com</a></p>
+                <p><FontAwesomeIcon icon={faLinkedin} style={styles.fontAwesome}/> <a href = ">https://www.linkedin.com/in/andrew-roddy/">https://www.linkedin.com/in/andrew-roddy/</a></p>
+                <p><FontAwesomeIcon icon={faGithub} style={styles.fontAwesome}/> <a href = "https://github.com/andrewroddy92">https://github.com/andrewroddy92</a></p>
+                <p><FontAwesomeIcon icon={faEnvelope} style={styles.fontAwesome}/> <a href = "mailto: andrewroddy92@yahoo.com">andrewroddy92@yahoo.com</a></p>
               </section>
             </Col>
           </Row>
