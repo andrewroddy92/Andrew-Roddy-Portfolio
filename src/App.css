@@ -1,1 +1,8 @@
+li {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
 
+#featured-text {
+  padding-top: 2rem;
+}

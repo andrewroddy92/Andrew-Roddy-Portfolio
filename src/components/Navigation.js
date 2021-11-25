@@ -1,11 +1,11 @@
 import React from "react";
-import resume from '../andrew_roddy_resume.docx';
+import resume from '../assets/andrew_roddy_resume.docx';
+
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-
 
 export default function Navigation() {
     const styles = {
