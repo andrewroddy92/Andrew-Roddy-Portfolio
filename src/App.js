@@ -6,6 +6,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import Container from 'react-bootstrap/Container'
 
 export default function App() {
   const styles = {
@@ -18,11 +19,13 @@ export default function App() {
 
   return (
     <main style={styles.main}>
-      <Navigation />
-      <Home />
-      <About />
-      <Portfolio />
-      <Contact />
+      <Container>
+        <Navigation />
+        <Home />
+        <About />
+        <Portfolio />
+        <Contact />
+      </Container>
     </main>
   );
 }

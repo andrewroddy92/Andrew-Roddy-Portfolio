@@ -1,13 +1,12 @@
 import React from "react";
-import Container from 'react-bootstrap/Container'
+
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import me from '../me.jpg'
 
-
 export default function About() {
     const styles = {
-      container: {
+      row: {
         paddingTop: '1.5rem'
       },
       header: {
@@ -34,8 +33,7 @@ export default function About() {
     };
 
     return (
-      <Container id="about" style={styles.container}>
-        <Row>
+        <Row id="about" style={styles.row}>
           <Col>
             <h1 style={styles.header}>about me</h1>
             <section style={styles.text}>
@@ -48,7 +46,5 @@ export default function About() {
             <img src={me} alt="self portait" style={styles.image}></img>
           </Col>
         </Row>
-
-      </Container>
       );
 }

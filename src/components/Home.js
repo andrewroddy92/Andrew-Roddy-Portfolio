@@ -1,12 +1,12 @@
 import React from "react";
-import Container from 'react-bootstrap/Container'
+
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 export default function Home() {
     const styles = {
-      container: {
-        paddingTop: '1.5rem'
+      row: {
+        paddingTop: '8rem'
       },
       intro: {
         color: '#A8DADC',
@@ -23,8 +23,7 @@ export default function Home() {
     };
 
     return (
-      <Container id="home" style={styles.container}>
-          <Row>
+          <Row id="home" style={styles.row}>
             <Col>
               <h1 style={styles.intro}>my name is</h1>
               <h2 style={styles.name}>Andrew Roddy.</h2>
@@ -40,6 +39,5 @@ export default function Home() {
               </section>
             </Col>
           </Row>
-      </Container>
       );
 }
