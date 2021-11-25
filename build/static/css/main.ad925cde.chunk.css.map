@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,GACE,oBAAqB,CACrB,iBACF,CAEA,eACE,gBACF","file":"main.ad925cde.chunk.css","sourcesContent":["li {\r\n  display: inline-block;\r\n  margin-left: 0.5rem;\r\n}\r\n\r\n#featured-text {\r\n  padding-top: 2rem;\r\n}\r\n"]}
