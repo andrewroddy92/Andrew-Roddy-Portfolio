@@ -36,7 +36,7 @@ export default function Home() {
                 <p>I'm a full stack web developer<br/>
                 based in the Greater Atlanta Area<br/>
                 seeking the opportunity to build<br/>
-                high quality, high value wep apps.</p>
+                high quality, high value web apps.</p>
                 <br/>
                 <p><FontAwesomeIcon icon={faLinkedin} style={styles.fontAwesome}/> <a href = ">https://www.linkedin.com/in/andrew-roddy/">https://www.linkedin.com/in/andrew-roddy/</a></p>
                 <p><FontAwesomeIcon icon={faGithub} style={styles.fontAwesome}/> <a href = "https://github.com/andrewroddy92">https://github.com/andrewroddy92</a></p>
